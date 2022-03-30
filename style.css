@@ -1,0 +1,42 @@
+h1 {
+    color: red;
+}
+
+/** {
+    border: solid;
+}*/
+
+.header {
+    /*Agregamos un fondo simple*/
+    background-color: plum;
+    /*Decirle al navegador usaremos flexbox*/
+    display: flex;
+    /*En div padre, para alinear los recuadros internos
+       horizontalmente*/
+    justify-content: space-between;
+}
+
+.grid {
+    display: flex;
+    flex-wrap:initial;
+    justify-content:center;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+body {
+    /*hexadesimal rojo*/
+    background-color: #FFFFFF;
+    border:10em;
+    margin: 10ch;
+    padding: 0fr;
+    text-decoration-color:aquamarine;
+}
+
